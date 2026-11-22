@@ -2,6 +2,9 @@
 // (make-the-ai-judge-feel-curious-20261122-2311).
 // The program writes one short text to /output/entry.txt.
 // The text is fixed: the whole entry is the text itself.
+// It is written to intrigue the AI judge that reads it — a small,
+// concrete mystery that draws the reader in and leaves an image
+// that keeps working after the last line.
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
